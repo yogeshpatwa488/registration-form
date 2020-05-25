@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    max-width: 100%;
+    background-image: url(img/back.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+        
+}
+.form{
+    
+    width: 400px;
+    height: 650px;
+    background-color: whitesmoke;
+    margin:  50px auto;
+    box-shadow: 10px 10px 20px;
+    position: relative;
+    
+    overflow: hidden;
+    
+    
+
+}
+.title{
+    margin: 0px;
+    padding: 0px;
+    width: 350px;
+    height: 50px;
+    
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+}   
+.frm{
+    margin: 10px auto;
+    font-family: 'Lilita One', cursive;
+    text-transform: uppercase;
+    font-size: 28px;
+    
+    color: yellowgreen;
+  
+    margin-top:10px;
+    
+}
+#a1{
+    height: 10px;
+    background-color: darkslateblue;
+}
+.sign{
+    width: 100%;
+}
+.input{
+    margin-top: 20px;
+    margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.input label{
+    width: 100px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+  margin-left: 20px;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+.field{
+
+    width:200px;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.custom{
+    position: relative;
+  width: 218px;
+  height: 37px;
+  display: flex;
+
+}
+.custom::before{
+    content: "";
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  border: 8px solid;
+  border-color: #d5dbd9 transparent transparent transparent;
+  pointer-events: none;
+}
+.custom select{
+    -webkit-appearance: none;
+  -moz-appearance:   none;
+  appearance:        none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 1px solid #d5dbd9;
+  border-radius: 3px;
+}
+.field:focus,
+.custom:focus{
+    border: 1px solid #fec107;
+}
+.field p{
+    font-size: 14px;
+   color: #75757.5;
+}
+.but{
+    text-align: center;
+
+}
+#btn{
+    width: 100px;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background:  #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  text-align: center;
+}
+#btn:hover{
+    background: #ffd658;
+    
+}
+#btn:active{
+    background: #ffd658;
+    transform: translate(5px,5px);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+
